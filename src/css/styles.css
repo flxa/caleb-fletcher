@@ -129,3 +129,9 @@ width: 40%;
 [data-bar="1"]:before {
 width: 20%;
 }
+
+@media print {
+	body {
+		margin: 0;
+	}
+}
